@@ -16,7 +16,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return (　
+  return (
     <html lang="ja">
       <body className="container mx-auto bg-slate-700 text-slate-50">
         <Header />

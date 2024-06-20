@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": "next.js13-udemy",
+      "title": "Next.jsをUdemyで学ぶ",
+      "content": "shincodeさんの教材でNext.js13を学んでいます。",
+      "createdAt": "0000/00/00"
+    },
+    {
+      "id": "json-server",
+      "title": "JSONサーバー",
+      "content": "[!IMPORTANT] Viewing beta v1 documentation usable but expect breaking changes. For stable version, see here Hey! Using React, Vue or Astro? Check my new project MistCSS to write 50% less code.",
+      "createdAt": "0000/06/12"
+    }
+  ]
+}
