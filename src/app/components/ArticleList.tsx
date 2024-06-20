@@ -14,7 +14,7 @@ const ArticleList = ({ articles }: ArticleListProps) => {
         <article className="shadow my-4 flex flex-col" key={article.id}>
         <Link href={`articles/${article.id}`} className="hover:opacity-75">
           <Image
-            src="https://source.unsplash.com/ja/%E5%86%99%E7%9C%9F/%E9%9C%A7%E3%81%AE%E5%B1%B1%E3%80%85%E3%81%AE%E8%88%AA%E7%A9%BA%E5%86%99%E7%9C%9F-1527pjeb6jg"
+            src="https://placehold.jp/150x150.png"
             alt=""
             width={1280}
             height={300}
