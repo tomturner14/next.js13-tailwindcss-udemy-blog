@@ -26,17 +26,23 @@ const ArticleList = ({ articles }: ArticleListProps) => {
           </Link>
           <Link
             href={`articles/${article.id}`}
-            className="text-slate-900 text-3xl font-bold hover:text-gray-700 pb-4">
-
+            className="text-slate-900 text-3xl font-bold hover:text-gray-700 pb-4"
+          >
             {article.title}
           </Link>
           <p className="text-sm pb-3 text-slate-900">
             Published on {article.createdAt}
             </p>
-          <Link href={`articles/${article.id}`} className="text-slate-900 pb-6">
+          <Link
+            href={`articles/${article.id}`}
+            className="text-slate-900 pb-6"
+          >
             {article.content}
           </Link>
-          <Link href={`articles/${article.id}`} className="text-pink-800 hover:text-black">
+          <Link
+            href={`articles/${article.id}`}
+            className="text-pink-800 hover:text-black"
+          >
             続きを読む
           </Link>
         </div>
